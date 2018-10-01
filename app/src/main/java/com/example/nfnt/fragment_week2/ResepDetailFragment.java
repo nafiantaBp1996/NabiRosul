@@ -44,7 +44,6 @@ public class ResepDetailFragment extends Fragment {
         super.onStart();
         View view = getView();
         if (view != null) {
-
             TextView tittle = (TextView) view.findViewById(R.id.textJudul);
             Resep resep = Resep.resepmakanan[(int) resepId];
             tittle.setText(resep.getNama_makanan());
