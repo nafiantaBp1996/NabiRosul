@@ -10,7 +10,7 @@ import android.widget.Toast;
 import static java.security.AccessController.getContext;
 
 
-public class MainActivity extends AppCompatActivity implements ResepListFragment.Listener {
+public class MainActivity extends AppCompatActivity implements NabiListFragment.Listener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements ResepListFragment
         View fragmenDetail = findViewById(R.id.detailingFrag);
         if(fragmenDetail!=null)
         {
-            ResepDetailFragment deta = new ResepDetailFragment();
+            NabiDetailFragment deta = new NabiDetailFragment();
 
             FragmentTransaction fragTrans = getSupportFragmentManager().beginTransaction();
             deta.setResep(id);

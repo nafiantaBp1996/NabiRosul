@@ -14,7 +14,7 @@
         android:padding="50dp"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:src="@drawable/logo"
+        android:src="@drawable/islam25nabi"
 
         />
 
