@@ -5,7 +5,7 @@ android {
     buildToolsVersion "28.0.2"
     defaultConfig {
         applicationId "com.example.nfnt.fragment_week2"
-        minSdkVersion 23
+        minSdkVersion 19
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"

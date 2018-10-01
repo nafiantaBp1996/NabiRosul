@@ -10,7 +10,7 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        ResepDetailFragment frag = (ResepDetailFragment) getSupportFragmentManager().findFragmentById(R.id.detailFrag);
+        NabiDetailFragment frag = (NabiDetailFragment) getSupportFragmentManager().findFragmentById(R.id.detailFrag);
         Bundle b = getIntent().getExtras();
         frag.setResep(b.getInt("id"));
         //frag.setResep(1);
