@@ -23,14 +23,14 @@ import java.util.List;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ResepListFragment extends ListFragment {
+public class NabiListFragment extends ListFragment {
 
     static interface Listener{
         void itemClicked(long id);
     }
     private Listener listener;
 
-    public ResepListFragment() {
+    public NabiListFragment() {
         // Required empty public constructor
     }
 
@@ -38,9 +38,9 @@ public class ResepListFragment extends ListFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        String[] names = new String[Resep.resepmakanan.length];
+        String[] names = new String[Nabi.kisahnabi.length];
         for (int i=0; i<names.length; i++) {
-            names[i] = Resep.resepmakanan[i].getNama_makanan();
+            names[i] = Nabi.kisahnabi[i].getNama_nabi();
         }
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(
