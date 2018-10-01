@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements ResepListFragment
             deta.setResep(id);
             fragTrans.replace(R.id.detailingFrag,deta);
             fragTrans.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
-            fragTrans.addToBackStack(null);
+            //fragTrans.addToBackStack(null);
             fragTrans.commit();
         }
 
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements ResepListFragment
                 Toast.makeText(this, "Item " + id + " was clicked", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(this.getApplicationContext(), DetailActivity.class);
                 Bundle b = new Bundle();
-                b.putDouble("id",id);
+                b.putLong("id",id);
                 intent.putExtras(b);
                 startActivity(intent);
             }
