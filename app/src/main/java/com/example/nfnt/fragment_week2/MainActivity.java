@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements NabiListFragment.
 
         else
             {
-                Toast.makeText(this, "Item " + id + " was clicked", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(this, "Item " + id + " was clicked", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(this.getApplicationContext(), DetailActivity.class);
                 Bundle b = new Bundle();
                 b.putLong("id",id);
