@@ -22,8 +22,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-                    android:text="Judul Makanan"
-                    android:textColor="@color/colorPrimaryDark"/>
+                    android:text="Judul"
+                    android:textStyle="italic|bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:paddingBottom="5dp"/>
 
                 <TextView
                     android:id="@+id/textDetail"

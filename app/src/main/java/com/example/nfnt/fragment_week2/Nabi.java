@@ -9,16 +9,16 @@ public class Nabi {
     private int gambar_;
     public static final Nabi[]kisahnabi={
             new Nabi("1. Nabi Adam","Nabi pertama " +
-                    "\n Allah Subhanahu wa Ta’ala memberitahukan kepada para malaikat tentang penciptaan Adam ‘alaihis salam, Dia berfirman:\n" +
+                    "\nAllah Subhanahu wa Ta’ala memberitahukan kepada para malaikat tentang penciptaan Adam ‘alaihis salam, Dia berfirman:\n" +
                     "\n" +
                     "“Sesungguhnya aku hendak menjadikan seorang khalifah di muka bumi.” (QS. Al Baqarah: 30)\n" +
                     "\n" +
                     "Yakni makhluk yang satu dengan yang lain saling menggantikan. Demikianlah Allah Subhanahu wa Ta’ala memberitahukan kepada para malaikat tentang penciptaan Adam sebagaimana Dia memberitahukan perkara besar sebelum terwujud.\n" +
                     "\n" +
                     "\n" +
-                    "\n" ,R.drawable.kisahparanabi),
+                    "\n" ,R.drawable.nabiadam),
             new Nabi("2. Nabi Idris","Nabi kedua " +
-                    "\n Nabi Idris adalah keturunan keenam dari Nabi Adam as. Dia adalah putra dari Qabil dan Iqlima (putra dan putri Nabi Adam as).\n" +
+                    "\nNabi Idris adalah keturunan keenam dari Nabi Adam as. Dia adalah putra dari Qabil dan Iqlima (putra dan putri Nabi Adam as).\n" +
                     "\n" +
                     "Saat itu, Allah memerintahkan Nabi Idris untuk mengajak seluruh manusia agar berjalan pada kebenaran. Saat itu dia adalah manusia pertama yang menerima wahyu lewat Malaikat Jibril ketika dirinya berusia 82 tahun.\n" +
                     "\n" +
